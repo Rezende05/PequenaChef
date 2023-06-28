@@ -1,0 +1,15 @@
+.parallax {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url(/img/parallax1.png);
+}
+
+.parallax2 {
+  background-image: url(/img/parallax2.png);
+}

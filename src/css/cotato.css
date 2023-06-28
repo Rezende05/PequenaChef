@@ -1,0 +1,63 @@
+#contato {
+  display: grid;
+  place-items: center;
+}
+
+#contato h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  letter-spacing: -0.05em;
+  margin: 34px 0 0 0;
+}
+
+.texto-contato {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 14.97px 0 5.03px 0;
+}
+
+.cadastro {
+  width: 629px;
+  height: 40px;
+  border: 1px solid #EC680A;
+}
+
+#contato select {
+  width: 629px;
+  height: 40px;
+  border: 1px solid #EC680A;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px; 
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mensagem {
+  width: 629px;
+  height: 104px;
+  border: 1px solid #EC680A;
+}
+
+
+.enviar-mensagem {
+  margin: 18px 0 62px 448px;
+  width: 186px;
+  background: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.enviar-mensagem p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff
+}

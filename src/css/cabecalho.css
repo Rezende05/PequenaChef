@@ -1,0 +1,32 @@
+#cabecalho {
+  background: #EC680A;
+  width: 100%;
+}
+
+.welcome {
+  height: 40px;
+  align-items: center;
+  display: flex;
+}
+
+.welcome p {
+  margin-left: 150px;
+  font-family: 'Inter';
+  font-size: 14px;
+}
+
+.Rede-social {
+  margin-left: auto;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.social-midia {
+  margin-left: 24px;
+  list-style: none;
+}
+
+.instagram {
+  margin-right: 150px;
+}

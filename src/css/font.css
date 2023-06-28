@@ -1,0 +1,19 @@
+@font-face {
+  src: url(/font/GreatVibes-Regular.ttf);
+  font-family:'Great Vibes';
+}
+
+@font-face {
+  src: url(/font/Montserrat-VariableFont_wght.ttf);
+  font-family:'Montserrat';
+}
+
+@font-face {
+  src: url(/font/Cormorant-VariableFont_wght.ttf);
+  font-family:'Cormorant';
+}
+
+@font-face {
+  src: url(/font/Inter-VariableFont_slnt\,wght.ttf);
+  font-family:'Inter';
+}

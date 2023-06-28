@@ -1,0 +1,27 @@
+.apresentacao {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.texto {
+  margin-top: 59px;
+  margin-left: 71px;
+}
+
+.texto h2 {
+  font-family: 'Montserrat';
+  font-size: 25px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.texto p {
+  width: 500px;
+  font-weight: 500;
+  font-family: 'Cormorant';
+  font-size: 25px;
+  font-style: normal;
+  line-height: 30px;
+}

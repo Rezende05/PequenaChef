@@ -1,0 +1,101 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 150px;
+  position: absolute;
+  z-index: 2;
+}
+
+.menu a{
+  text-decoration: none;
+  margin-left: 60px;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+.carrossel .slick-slide img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+
+.carrossel .slick-prev{
+  position: absolute;
+  z-index: 2;
+  top: 75%;
+  left: 46%;
+  font-size: 0;
+  border: none;
+  background: none;
+}
+
+
+.carrossel .slick-dots {
+  position: absolute;
+  top: 73%;
+  text-decoration: none;
+  display: flex;
+  left: 50%;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+
+.carrossel .slick-dots li button{
+  font-size: 0;
+  border: none;
+  background: none;
+}
+
+.carrossel .slick-next{
+  position: absolute;
+  z-index: 2;
+  top: 75%;
+  right: 40%;
+  font-size: 0;
+  border: none;
+  background: none;
+}
+
+.carrossel .slick-prev::before{
+  content: '';
+  background-image: url(/img/seta-L.png);
+  display: block;
+  width: 26px;
+  height: 45px;
+}
+
+.carrossel .slick-next::before{
+  content: '';
+  background-image: url(/img/seta-R.png);
+  display: block;
+  width: 26px;
+  height: 45px;
+}
+
+.carrossel .slick-dots li button::before{
+  content: '';
+  background-image: url(/img/chapeu.png);
+  display: block;
+  width: 31px;
+  height: 25px;
+}
+
+.carrossel .slick-dots li.slick-active{
+  margin-bottom: 20px;
+}
+
+.carrossel .slick-dots li.slick-active button::before{
+  content: '';
+  background-image: url(/img/chapeu-act.png);
+  display: block;
+  width: 31px;
+  height: 25px;
+}

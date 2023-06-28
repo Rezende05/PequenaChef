@@ -1,0 +1,56 @@
+.doce {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.detalhe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 54px;
+  background-image: url();
+}
+
+.linha-doce {
+  margin: 0  5.26px -5px 5.26px;
+}
+
+.doce-img {
+  display: flex;
+  margin-bottom: 42px;
+  justify-content: center;
+}
+
+.doce-img img {
+  margin-right: 42px;
+}
+
+.nosso-cardapio {
+  width: 300px;
+  height: 300px;
+  margin-right: 42px;
+  border: 2px solid #EC680A;
+}
+
+.nosso-cardapio h2 {
+  padding-left: 41px;
+  margin: 88px 100px 0 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 67px;
+  letter-spacing: -0.05em;
+  color: #000;
+}
+
+.nosso-cardapio p {
+  padding-left: 76px;
+  margin: 0;
+  margin-top: -38px;
+  font-family: 'Great Vibes';
+  font-style: normal;
+  font-size: 75px;
+  line-height: 94px;
+  color: #EC680A;
+}

@@ -1,0 +1,104 @@
+
+
+.cardapio-bolo {
+  width: 500px;
+  margin-left: 250px;
+  margin-top: 84px;
+  margin-bottom: 90px;
+}
+
+.linha {
+  margin-bottom: 5px;
+}
+
+.cardapio-bolo h2 {
+  font-family: 'Montserrat';
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 42.67px;
+}
+
+.cardapio-bolo h3 {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.cardapio-bolo p {
+  font-family: 'Cormorant';
+  font-style: italic;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 21.8px;
+}
+
+.descricao {
+  margin-top: 0;
+}
+
+
+
+.btn {
+  padding: 10px 20px;
+  background: black;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.btn h4 {
+  width: 180px;
+  margin: 0;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background:#EC680A;
+}
+
+.btn:hover h4 {
+  color: #000;
+}
+
+.cardapio-doce {
+  width: 500px;
+  margin-left: auto;
+  margin-top: 84px;
+  margin-right: 200px;
+  margin-bottom: 90px;
+}
+
+.cardapio-doce h2 {
+  font-family: 'Montserrat';
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 42.67px;
+}
+
+.cardapio-doce h3 {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.cardapio-doce p {
+  font-family: 'Cormorant';
+  font-style: italic;
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 21.8px;
+}
+
+.meio-cardapio {
+  height: 50px;
+}

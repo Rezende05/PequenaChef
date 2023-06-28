@@ -1,0 +1,61 @@
+#rodape {
+  padding-top: 89px;
+  display: grid;
+  place-items: center;
+  padding-bottom: 92px;
+}
+
+.logo-rodape {
+  display: flex;
+  margin-top: -780px;
+}
+
+.laranja {
+  width: 100%;
+  background-color: #EC680A;
+  padding-bottom: 78px;
+}
+
+.info {
+  display: grid;
+  place-items: center;
+  margin-top: 110px;
+}
+
+.info p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin: 20px 0 0 0;
+}
+
+.redesocial-rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmidia-rodape {
+  margin-right: 25px;
+  list-style: none;
+}
+
+.preto{
+  width: 100%;
+  height: 20px;
+  background: #000;
+}
+
+.branco{
+  width: 100%;
+  height: 8px;
+  background: #fff;
+}
+
+.img-rodape {
+  margin-left: auto;
+  margin-top: -142px;
+  margin-right: 140px;
+}
