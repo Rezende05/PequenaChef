@@ -80,9 +80,47 @@
   width: 276px !important;
 }
 
+.feedbacks .slick-prev{
+  border: none;
+  font-size: 0;
+  background-color: white;
+}
 
+.feedbacks .slick-next{
+  border: none;
+  font-size: 0;
+  background-color: white;
+}
 
+.feedbacks ul {
+  position: absolute;
+  text-decoration: none;
+  display: flex !important;
+  left: 50%;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
 
+.feedbacks .slick-dots li button{
+  font-size: 0;
+  border: none;
+  background: none;
+}
 
+.feedbacks .slick-dots li button::before{
+  content: '';
+  background-image: url(/img/Carregando.png);
+  display: block;
+  height: 16px;
+  width: 16px;
+}
 
-
+.feedbacks .slick-dots li.slick-active button::before{
+  content: '';
+  background-image: url(/img/Carregando-ativo.png);
+  display: block;
+  height: 16px;
+  width: 30px;
+}

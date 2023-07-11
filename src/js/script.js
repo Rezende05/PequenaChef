@@ -1,13 +1,16 @@
 $('.carrossel').slick({
   dots: true,
-  autoplay: false,
-  autoplaySpeed: 2000,
+  autoplay: true,
+  autoplaySpeed: 3000,
 });
 
 
 $('.feedbacks-carrossel').slick({
+  dots: true,
   centerMode: true,
   slidesToShow: 3,
+  autoplay: true,
+  autoplaySpeed: 5000,
   lazyLoad: 'ondemand',
   cssEase: 'linear',
   responsive: [
