@@ -1,70 +1,104 @@
 .menu {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  margin-top: 10px;
-  margin-left: 150px;
-  margin-right: 150px;
   position: absolute;
   z-index: 2;
 }
 
-.menu a{
+.logo {
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.menu a {
   text-decoration: none;
   margin-left: 60px;
   color: #000;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Montserrat';
+  height: 116px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-width: 148px;
+  background-image: url(/img/hover.png);
+  background-repeat: no-repeat;
+  background-position-y: -50px;
+  background-position-x: center;
 }
 
-.carrossel .slick-slide img {
+.menu a:hover {
+  background-image: url(/img/hover.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  margin-top: -10px;
+  background-position-y: 0;
+  transition: .3s;
+}
+
+
+.navigation {
+  height: 116px;
+  display: flex;
+}
+
+
+.menu a:last-child{
+  margin-right: 150px;
+}
+
+.carousel .slick-slide img {
   max-width: 100%;
   width: 100%;
   height: auto;
 }
 
 
-.carrossel .slick-prev{
+.carousel .slick-prev{
   position: absolute;
   z-index: 2;
-  top: 75%;
-  left: 46%;
+  bottom: 20%;
+  left: 44%;
   font-size: 0;
   border: none;
   background: none;
 }
 
 
-.carrossel .slick-dots {
+.carousel .slick-dots {
+  width: 100%;
+  justify-content: center;
   position: absolute;
-  top: 73%;
+  bottom: 18%;
   text-decoration: none;
   display: flex;
-  left: 50%;
+  left: 0;
   padding: 0;
   list-style: none;
   align-items: center;
 }
 
 
-.carrossel .slick-dots li button{
+.carousel .slick-dots li button{
   font-size: 0;
   border: none;
   background: none;
 }
 
-.carrossel .slick-next{
+.carousel .slick-next{
   position: absolute;
   z-index: 2;
-  top: 75%;
-  right: 40%;
+  bottom: 20%;
+  right: 44%;
   font-size: 0;
   border: none;
   background: none;
 }
 
-.carrossel .slick-prev::before{
+.carousel .slick-prev::before{
   content: '';
   background-image: url(/img/seta-L.png);
   display: block;
@@ -72,7 +106,7 @@
   height: 45px;
 }
 
-.carrossel .slick-next::before{
+.carousel .slick-next::before{
   content: '';
   background-image: url(/img/seta-R.png);
   display: block;
@@ -80,7 +114,7 @@
   height: 45px;
 }
 
-.carrossel .slick-dots li button::before{
+.carousel .slick-dots li button::before{
   content: '';
   background-image: url(/img/chapeu.png);
   display: block;
@@ -88,11 +122,11 @@
   height: 25px;
 }
 
-.carrossel .slick-dots li.slick-active{
+.carousel .slick-dots li.slick-active{
   margin-bottom: 20px;
 }
 
-.carrossel .slick-dots li.slick-active button::before{
+.carousel .slick-dots li.slick-active button::before{
   content: '';
   background-image: url(/img/chapeu-act.png);
   display: block;

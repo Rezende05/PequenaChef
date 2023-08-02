@@ -1,9 +1,9 @@
 
 
-.cardapio-bolo {
+.our-menu {
   width: 500px;
   margin-left: 250px;
-  margin-top: 84px;
+  margin-top: 70px;
   margin-bottom: 90px;
 }
 
@@ -11,31 +11,30 @@
   margin-bottom: 5px;
 }
 
-.cardapio-bolo h2 {
+.our-menu h2 {
   font-family: 'Montserrat';
   font-size: 35px;
   font-weight: 600;
-  line-height: 42.67px;
+  text-transform: uppercase;
 }
 
-.cardapio-bolo h3 {
+.our-menu h3 {
   font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 500;
-  line-height: 21.94px;
   margin-bottom: 0;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 
-.cardapio-bolo p {
+.our-menu p {
   font-family: 'Cormorant';
   font-style: italic;
   font-weight: 500px;
   font-size: 18px;
-  line-height: 21.8px;
 }
 
-.descricao {
+.description {
   margin-top: 0;
 }
 
@@ -55,7 +54,6 @@
   color: #fff;
   font-family: 'Montserrat';
   font-size: 14px;
-  line-height: 17px;
   text-align: center;
   font-weight: 500;
 }
@@ -69,38 +67,37 @@
   color: #000;
 }
 
-.cardapio-doce {
+.sweet-menu {
   width: 500px;
   margin-left: auto;
-  margin-top: 84px;
+  margin-top: 70px;
   margin-right: 200px;
   margin-bottom: 90px;
 }
 
-.cardapio-doce h2 {
+.sweet-menu h2 {
   font-family: 'Montserrat';
   font-size: 35px;
   font-weight: 600;
-  line-height: 42.67px;
+  text-transform: uppercase;
 }
 
-.cardapio-doce h3 {
+.sweet-menu h3 {
   font-family: 'Montserrat';
   font-size: 18px;
   font-weight: 500;
-  line-height: 21.94px;
   margin-bottom: 0;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 
-.cardapio-doce p {
+.sweet-menu p {
   font-family: 'Cormorant';
   font-style: italic;
   font-weight: 500px;
   font-size: 18px;
-  line-height: 21.8px;
 }
 
-.meio-cardapio {
+.half-menu {
   height: 50px;
 }

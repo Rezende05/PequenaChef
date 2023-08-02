@@ -1,4 +1,4 @@
-#cabecalho {
+#bighead {
   background: #EC680A;
   width: 100%;
 }
@@ -15,7 +15,7 @@
   font-size: 14px;
 }
 
-.Rede-social {
+.social-network {
   margin-left: auto;
   align-items: center;
   justify-content: space-between;

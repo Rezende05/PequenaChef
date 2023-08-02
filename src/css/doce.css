@@ -1,4 +1,4 @@
-.doce {
+.sweet {
   margin-top: 100px;
   padding-bottom: 100px;
 }
@@ -11,17 +11,17 @@
   background-image: url();
 }
 
-.linha-doce {
+.sweet-line {
   margin: 0  5.26px -5px 5.26px;
 }
 
-.doce-img {
+.sweet-img {
   display: flex;
   margin-bottom: 42px;
   justify-content: center;
 }
 
-.doce-img img {
+.sweet-img img {
   margin-right: 42px;
 }
 

@@ -1,9 +1,9 @@
-#contato {
+#contact {
   display: grid;
   place-items: center;
 }
 
-#contato h2 {
+#contact h2 {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -12,7 +12,7 @@
   margin: 34px 0 0 0;
 }
 
-.texto-contato {
+.contact-text {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -21,13 +21,13 @@
   margin: 14.97px 0 5.03px 0;
 }
 
-.cadastro {
+.register {
   width: 629px;
   height: 40px;
   border: 1px solid #EC680A;
 }
 
-#contato select {
+#contact select {
   width: 629px;
   height: 40px;
   border: 1px solid #EC680A;
@@ -38,14 +38,14 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
-.mensagem {
+.message {
   width: 629px;
   height: 104px;
   border: 1px solid #EC680A;
 }
 
 
-.enviar-mensagem {
+.send-message {
   margin: 18px 0 62px 448px;
   width: 186px;
   background: #000;
@@ -53,7 +53,7 @@
   cursor: pointer;
 }
 
-.enviar-mensagem p {
+.send-message p {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
