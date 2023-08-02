@@ -1,11 +1,11 @@
-$('.carrossel').slick({
+$('.carousel').slick({
   dots: true,
   autoplay: true,
   autoplaySpeed: 3000,
 });
 
 
-$('.feedbacks-carrossel').slick({
+$('.feedbacks-carousel').slick({
   dots: true,
   centerMode: true,
   slidesToShow: 3,
@@ -33,7 +33,7 @@ $('.feedbacks-carrossel').slick({
   ]
 });
 
-const linksInternos = document.querySelectorAll('[data-menu="suave"] a[href^="#"]');
+const linksInternos = document.querySelectorAll('[data-menu="soft"] a[href^="#"]');
 
   function scrollToSection(event) {
     event.preventDefault();
@@ -43,15 +43,10 @@ const linksInternos = document.querySelectorAll('[data-menu="suave"] a[href^="#"
       behavior: 'smooth',
       block: 'start',
     });
-
-    // forma alternativa
-    // const topo = section.offsetTop;
-    // window.scrollTo({
-    //   top: topo,
-    //   behavior: 'smooth',
-    // });
   }
 
   linksInternos.forEach((link) => {
     link.addEventListener('click', scrollToSection);
   });
+
+
