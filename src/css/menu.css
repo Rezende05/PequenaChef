@@ -13,7 +13,7 @@
   margin-top: 10px;
 }
 
-.menu a {
+.navigation a {
   text-decoration: none;
   margin-left: 60px;
   color: #000;
@@ -30,7 +30,7 @@
   background-position-x: center;
 }
 
-.menu a:hover {
+.navigation a:hover {
   background-image: url(/img/hover.png);
   background-repeat: no-repeat;
   background-position-x: center;
@@ -46,7 +46,7 @@
 }
 
 
-.menu a:last-child{
+.navigation a:last-child{
   margin-right: 150px;
 }
 
@@ -60,7 +60,7 @@
 .carousel .slick-prev{
   position: absolute;
   z-index: 2;
-  bottom: 20%;
+  bottom: 10%;
   left: 44%;
   font-size: 0;
   border: none;
@@ -72,7 +72,7 @@
   width: 100%;
   justify-content: center;
   position: absolute;
-  bottom: 18%;
+  bottom: 8%;
   text-decoration: none;
   display: flex;
   left: 0;
@@ -91,7 +91,7 @@
 .carousel .slick-next{
   position: absolute;
   z-index: 2;
-  bottom: 20%;
+  bottom: 10%;
   right: 44%;
   font-size: 0;
   border: none;
@@ -132,4 +132,46 @@
   display: block;
   width: 31px;
   height: 25px;
+}
+
+.social-network-mobile{
+  display: none;
+}
+
+@media (max-width:600px) {
+  .menu {
+    position: relative;
+    background-color: white;
+    width: 100%;
+  }
+
+  .logo {
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .navigation a{
+    display: none;
+  }
+
+  .carousel .slick-prev {
+    left: 33%;
+  }
+
+  .carousel .slick-next {
+    right: 33%;
+  }
+
+  .social-network-mobile {
+    padding: 0;
+    width: 112px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .social-network-mobile li{
+    list-style: none;
+  }
+
 }

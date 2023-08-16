@@ -59,3 +59,15 @@
   margin-top: -142px;
   margin-right: 140px;
 }
+
+
+@media(max-width:600px) {
+  .logo-rodape {
+    margin-top: -750px;
+  }
+
+  .img-rodape {
+    margin: 60px auto;
+
+  }
+}

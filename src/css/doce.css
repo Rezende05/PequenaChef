@@ -54,3 +54,19 @@
   line-height: 94px;
   color: #EC680A;
 }
+
+@media (max-width:600px) {
+
+  .sweet-img {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .sweet-img img {
+    margin: 15px auto;
+  }
+
+  .nosso-cardapio {
+    margin: 0 auto;
+  }
+}

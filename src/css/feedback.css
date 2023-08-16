@@ -124,3 +124,59 @@
   height: 16px;
   width: 30px;
 }
+
+@media(max-width:600px) {
+  #feedback {
+    flex-direction: column;
+  }
+
+  .feedbacks {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .feedbacks ul {
+    left: 40%;
+  }
+
+  .feedback-amamos {
+    display: none;
+  }
+
+  .fedback-mobile{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #EC860A;
+    margin-bottom: 50px;
+  }
+
+
+  .quite-text {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    color: #000000;
+    line-height: 61px;
+    margin-top: -112px;
+  }
+
+  .start-text {
+  font-family: 'Great Vibes';
+  font-size: 75px;
+  line-height: 94px;
+  color: #EC860A;
+  margin-left: -90px;
+  }
+
+  .end-text {
+    font-family: 'Great Vibes';
+    font-size: 75px;
+    line-height: 94px;
+    color: #EC860A;
+    margin-top: -40px;
+    margin-left: 70px;
+  }
+}

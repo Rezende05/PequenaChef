@@ -13,3 +13,13 @@
 .parallax2 {
   background-image: url(/img/parallax2.png);
 }
+
+
+@media (max-width:600px) {
+  .parallax1{
+    background-image: url(/img/parallax1-mobile.png);
+  }
+  .parallax2{
+    background-image: url(/img/parallax2-mobile.png);
+  }
+}

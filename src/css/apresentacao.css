@@ -25,3 +25,28 @@
   line-height: 30px;
   color: #000000;
 }
+
+@media (max-width:600px) {
+  .presentation {
+   flex-direction: column;
+  }
+
+  .presentation img{
+    margin:0 30%;
+  }
+
+  .text{
+    margin: auto;
+  }
+
+  .text h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text p{
+    margin: 0 auto;
+    width: 80%;
+  }
+}

@@ -101,3 +101,39 @@
 .half-menu {
   height: 50px;
 }
+
+@media (max-width:600px) {
+  .our-menu {
+    margin: 20% 10%;
+    width: 70%
+  }
+
+  .our-menu p {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 320px;
+    margin: 5px 0;
+  }
+
+  .description {
+    width: 100% !important;
+  }
+
+  .btn{
+    margin-top: 10px;
+  }
+
+  .sweet-menu {
+    margin: 20% 10%;
+    width: 70%
+  }
+
+  .sweet-menu p {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    width: 320px;
+    margin: 5px 0;
+  }
+}

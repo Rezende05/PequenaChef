@@ -30,3 +30,23 @@
 .instagram {
   margin-right: 150px;
 }
+
+
+@media (max-width:600px) {
+  body {
+    font-size: 62.5%;
+  }
+
+  .welcome {
+    width: 100%;
+  }
+
+  .welcome p {
+    margin: 0 auto;
+    font-size: 1.2em;
+  }
+
+  .social-network {
+    display: none;
+  }
+}

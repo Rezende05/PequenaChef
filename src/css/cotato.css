@@ -1,6 +1,7 @@
 #contact {
   display: grid;
   place-items: center;
+  margin: 0 auto;
 }
 
 #contact h2 {
@@ -18,17 +19,17 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  margin: 14.97px 0 5.03px 0;
+  margin: 15px 0 5px 0;
 }
 
 .register {
-  width: 629px;
+  width: 500px;
   height: 40px;
   border: 1px solid #EC680A;
 }
 
 #contact select {
-  width: 629px;
+  width: 100%;
   height: 40px;
   border: 1px solid #EC680A;
   font-family: 'Montserrat';
@@ -39,14 +40,20 @@
 }
 
 .message {
-  width: 629px;
+  width: 100%;
   height: 104px;
   border: 1px solid #EC680A;
 }
 
-
 .send-message {
-  margin: 18px 0 62px 448px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-bottom: 100px;
+}
+
+.send-message button {
+  margin-top: 20px;
   width: 186px;
   background: #000;
   border: none;
@@ -61,3 +68,4 @@
   line-height: 17px;
   color: #fff
 }
+
