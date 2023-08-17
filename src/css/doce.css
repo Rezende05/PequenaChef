@@ -55,7 +55,7 @@
   color: #EC680A;
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
 
   .sweet-img {
     flex-direction: column;

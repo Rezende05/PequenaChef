@@ -102,9 +102,9 @@
   height: 50px;
 }
 
-@media (max-width:600px) {
+@media (max-width:900px) {
   .our-menu {
-    margin: 20% 10%;
+    margin: 5% 10%;
     width: 70%
   }
 
@@ -125,7 +125,7 @@
   }
 
   .sweet-menu {
-    margin: 20% 10%;
+    margin: 5% 10%;
     width: 70%
   }
 

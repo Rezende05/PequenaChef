@@ -32,7 +32,7 @@
 }
 
 
-@media (max-width:600px) {
+@media (max-width:900px) {
   body {
     font-size: 62.5%;
   }
@@ -44,6 +44,7 @@
   .welcome p {
     margin: 0 auto;
     font-size: 1.2em;
+    text-align: center;
   }
 
   .social-network {

@@ -60,14 +60,22 @@
   margin-right: 140px;
 }
 
+.rodape-mobile {
+  display: none;
+}
 
-@media(max-width:600px) {
+
+@media(max-width:900px) {
   .logo-rodape {
     margin-top: -750px;
   }
 
-  .img-rodape {
+  .rodape-mobile {
     margin: 60px auto;
+    display: block;
+  }
 
+  .img-rodape {
+    display: none;
   }
 }

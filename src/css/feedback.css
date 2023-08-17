@@ -125,7 +125,11 @@
   width: 30px;
 }
 
-@media(max-width:600px) {
+.fedback-mobile {
+  display: none;
+}
+
+@media(max-width:900px) {
   #feedback {
     flex-direction: column;
   }

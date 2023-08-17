@@ -1,6 +1,6 @@
 $('.carousel').slick({
   dots: true,
-  autoplay: true,
+  //autoplay: true,
   autoplaySpeed: 3000,
 });
 
@@ -50,3 +50,10 @@ const linksInternos = document.querySelectorAll('[data-menu="soft"] a[href^="#"]
   });
 
 
+function openNav() {
+  document.getElementById('myNav').style.width = '80%'
+}
+
+function closeNav() {
+  document.getElementById('myNav').style.width = '0%'
+}
