@@ -16,6 +16,10 @@
   width: 50%;
 }
 
+.feedback-amamos img {
+  width: -webkit-fill-available;
+}
+
 .feedbacks .slick-track{
   display: flex !important;
   align-items: center;

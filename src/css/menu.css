@@ -146,6 +146,25 @@
   display: none;
 }
 
+
+@media (max-width:1500px){
+  .carousel .slick-prev {
+    left: 41%;
+  }
+  .carousel .slick-next {
+    right: 41%;
+  }
+}
+
+@media (max-width:1100px){
+  .carousel .slick-prev {
+    left: 40%;
+  }
+  .carousel .slick-next {
+    right: 40%;
+  }
+}
+
 @media (max-width:900px) {
   .menu {
     position: relative;
@@ -166,11 +185,11 @@
   }
 
   .carousel .slick-prev {
-    left: 33%;
+    left: 35%;
   }
 
   .carousel .slick-next {
-    right: 33%;
+    right: 35%;
   }
 
   .social-network-mobile {
@@ -233,5 +252,23 @@
 
   .carousel .slick-slide img{
     height: 350px
+  }
+}
+
+@media (max-width:600px){
+  .carousel .slick-prev {
+    left: 30%;
+  }
+  .carousel .slick-next {
+    right: 30%;
+  }
+}
+
+@media (max-width:425px){
+  .carousel .slick-prev {
+    left: 25%;
+  }
+  .carousel .slick-next {
+    right: 25%;
   }
 }

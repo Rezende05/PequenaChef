@@ -25,7 +25,7 @@
 }
 
 .register {
-  width: 100%;
+  width: 629px;
   height: 40px;
   border: 1px solid #EC680A;
 }
@@ -71,3 +71,8 @@
   color: #fff
 }
 
+@media (max-width:900px) {
+  .register {
+    width: 100%;
+  }
+}
